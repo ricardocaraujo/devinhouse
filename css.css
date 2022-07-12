@@ -1,0 +1,27 @@
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menu {
+  flex-grow: 1;
+  display: inline-block;
+}
+
+.logo {
+  width: 5%;
+  height: 5%;
+  vertical-align: middle;
+  margin: 0 10px;
+}
+
+nav ul {
+  text-align: right;
+}
+
+nav ul li {
+  display: inline-block;
+  margin: 10px;
+}
